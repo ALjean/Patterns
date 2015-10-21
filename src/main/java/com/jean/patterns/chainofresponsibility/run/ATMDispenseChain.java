@@ -1,10 +1,10 @@
-package com.jean.chainofresponsibility.run;
+package com.jean.patterns.chainofresponsibility.run;
 
-import com.jean.chainofresponsibility.model.Currency;
-import com.jean.chainofresponsibility.dispense.DispenseChain;
-import com.jean.chainofresponsibility.dispense.impl.Dollar10Dispenser;
-import com.jean.chainofresponsibility.dispense.impl.Dollar20Dispenser;
-import com.jean.chainofresponsibility.dispense.impl.Dollar50Dispenser;
+import com.jean.patterns.chainofresponsibility.model.Currency;
+import com.jean.patterns.chainofresponsibility.dispense.DispenseChain;
+import com.jean.patterns.chainofresponsibility.dispense.impl.Dollar10Dispenser;
+import com.jean.patterns.chainofresponsibility.dispense.impl.Dollar20Dispenser;
+import com.jean.patterns.chainofresponsibility.dispense.impl.Dollar50Dispenser;
 
 import java.util.Scanner;
 

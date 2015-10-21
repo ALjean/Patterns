@@ -1,7 +1,7 @@
-package com.jean.memento.run;
+package com.jean.patterns.memento.run;
 
-import com.jean.memento.impl.FileWriterCaretaker;
-import com.jean.memento.impl.FileWriterUtil;
+import com.jean.patterns.memento.impl.FileWriterCaretaker;
+import com.jean.patterns.memento.impl.FileWriterUtil;
 
 /**
  * Created by jean on 02.05.15.

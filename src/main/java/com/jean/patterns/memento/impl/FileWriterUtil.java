@@ -1,4 +1,4 @@
-package com.jean.memento.impl;
+package com.jean.patterns.memento.impl;
 
 
 /**

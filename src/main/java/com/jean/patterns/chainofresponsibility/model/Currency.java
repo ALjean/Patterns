@@ -1,4 +1,4 @@
-package com.jean.chainofresponsibility.model;
+package com.jean.patterns.chainofresponsibility.model;
 
 /**
  * Created by jean on 02.05.15.

@@ -1,6 +1,6 @@
-package com.jean.chainofresponsibility.dispense;
+package com.jean.patterns.chainofresponsibility.dispense;
 
-import com.jean.chainofresponsibility.model.Currency;
+import com.jean.patterns.chainofresponsibility.model.Currency;
 
 /**
  * Created by jean on 02.05.15.

@@ -1,4 +1,4 @@
-package com.jean.memento;
+package com.jean.patterns.memento;
 
 import org.junit.*;
 import static org.junit.Assert.assertEquals;

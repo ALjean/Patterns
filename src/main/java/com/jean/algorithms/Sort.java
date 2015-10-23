@@ -1,10 +1,27 @@
 package com.jean.algorithms;
 
-public interface Sort {
+public abstract class Sort {
 
-    void insert(long value);
+    protected long[] array;
+    protected int nElements;
 
-    void display();
+    public void insert(long value) {
+        array[nElements] = value;
+        nElements++;
+    }
 
-    void sort();
+    public void display() {
+        for (long l : array) {
+            System.out.print(" " + l);
+        }
+        System.out.println();
+    }
+
+    protected void swap(int one, int two) {
+        long temp = array[one];
+        array[one] = array[two];
+        array[two] = temp;
+    }
+
+    public abstract void sort();
 }

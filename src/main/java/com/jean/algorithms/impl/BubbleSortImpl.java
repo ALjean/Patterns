@@ -2,26 +2,11 @@ package com.jean.algorithms.impl;
 
 import com.jean.algorithms.Sort;
 
-public class BubbleSortImpl implements Sort {
-
-    private long[] array;
-    private int nElements;
+public class BubbleSortImpl extends Sort {
 
     public BubbleSortImpl(int max) {
-        this.array = new long[max];
-        this.nElements = 0;
-    }
-
-    public void insert(long value) {
-        array[nElements] = value;
-        nElements++;
-    }
-
-    public void display() {
-        for (long l : array) {
-            System.out.print(" " + l);
-        }
-        System.out.println();
+        array = new long[max];
+        nElements = 0;
     }
 
     public void sort() {
@@ -34,11 +19,7 @@ public class BubbleSortImpl implements Sort {
         }
     }
 
-    private void swap(int one, int two) {
-        long temp = array[one];
-        array[one] = array[two];
-        array[two] = temp;
-    }
+
 
 
 }

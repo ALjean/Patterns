@@ -1,10 +1,11 @@
 package com.jean.algorithms;
 
 import com.jean.algorithms.impl.BubbleSortImpl;
+import com.jean.algorithms.impl.SelectionSortImpl;
 
 public class Runner {
     public static void main(String ... args){
-        Sort sort = new BubbleSortImpl(10);
+        Sort sort = new SelectionSortImpl(10);
         sort.insert(12);
         sort.insert(13);
         sort.insert(1);

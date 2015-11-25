@@ -1,7 +1,6 @@
-package com.jean.algorithms;
+package com.jean.algorithms.sort;
 
-import com.jean.algorithms.impl.BubbleSortImpl;
-import com.jean.algorithms.impl.SelectionSortImpl;
+import com.jean.algorithms.sort.impl.SelectionSortImpl;
 
 public class Runner {
     public static void main(String ... args){

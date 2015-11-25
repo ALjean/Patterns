@@ -1,4 +1,4 @@
-package com.jean.algorithms;
+package com.jean.algorithms.sort;
 
 public abstract class Sort {
 

@@ -1,6 +1,6 @@
-package com.jean.algorithms.impl;
+package com.jean.algorithms.sort.impl;
 
-import com.jean.algorithms.Sort;
+import com.jean.algorithms.sort.Sort;
 
 public class SelectionSortImpl extends Sort {
 

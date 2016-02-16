@@ -7,12 +7,8 @@ import java.util.List;
 public class Runner {
 
     public static void main(String ... args){
-//        sum all number
+        // sum all number
         CustomFunction customFunction = stream -> stream.reduce((a, b) -> a + b).get();
-
-
-
-
 
         List<Integer> list = new ArrayList<>();
         list.add(11);

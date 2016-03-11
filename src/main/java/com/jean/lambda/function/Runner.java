@@ -28,15 +28,27 @@ public class Runner {
 //        System.out.println(sum);
 
 
-        AlbumBuilder albumBuilder = new AlbumBuilder();
-        List<Album> albumList = albumBuilder.buildAlbums(10, 5);
 
-        AlbumService albumService = new AlbumServiceJava7Impl();
-        Set<String> tracks = albumService.findLongTracks(albumList);
+//        AlbumBuilder albumBuilder = new AlbumBuilder();
+//        List<Album> albumList = albumBuilder.buildAlbums(10, 5);
+//
+//        AlbumService albumService = new AlbumServiceJava7Impl();
+//        Set<String> tracks = albumService.findLongTracks(albumList);
+//
+//
+//        System.out.println(tracks);
 
 
-        System.out.println(tracks);
 
+//        List<Integer> li = new ArrayList<>();
+//        for (int i = 1; i < 50; i += 2){
+//            li.add(i);
+//        }
+
+        System.out.println(System.getProperty("java.vm.name"));
+        System.out.println(System.getProperty("user.dir"));
+
+        
 
 
     }

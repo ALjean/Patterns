@@ -2,6 +2,7 @@ package com.jean.rrs.model;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public class Channel {
 
@@ -13,7 +14,7 @@ public class Channel {
     private  String generator;
     private Date pubDate;
     private Logo logo; //image
-    private ArrayList<Item> listNews;
+    private List<Item> listNews;
 
     public String getTitle() {
         return title;
@@ -79,11 +80,11 @@ public class Channel {
         this.logo = logo;
     }
 
-    public ArrayList<Item> getListNews() {
+    public List<Item> getListNews() {
         return listNews;
     }
 
-    public void setListNews(ArrayList<Item> listNews) {
+    public void setListNews(List<Item> listNews) {
         this.listNews = listNews;
     }
 }

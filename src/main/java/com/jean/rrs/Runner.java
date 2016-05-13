@@ -1,7 +1,5 @@
 package com.jean.rrs;
 
-import com.jean.rrs.parser.XmlRssChannel;
-import com.jean.rrs.parser.XmlRssNews;
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
 
@@ -27,9 +25,9 @@ public class Runner {
 
             Document document = builder.parse(stream);
 
-            Rss rss = new Rss(document); //TODO set DOC ?
-            rss.parseRssDocument();
-            rss.createChannel();
+            RssImpl rssImpl = new RssImpl(document); //TODO set DOC ?
+            rssImpl.parseRssDocument();
+            rssImpl.createChannel();
 
 //            XmlRssNews parser = new XmlRssNews(document);
 //            XmlRssChannel parserchanal = new XmlRssChannel(document);
